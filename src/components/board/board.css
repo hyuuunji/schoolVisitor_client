@@ -35,7 +35,7 @@
     margin-right: 0.5rem;
     border: 1px solid #b3b3b3;
     padding: 1rem;
- 
+    text-align: center;
 }
   .board_search:focus {outline:none;}
 
@@ -131,19 +131,19 @@
    
 
     .board_wrap {
-    width: 100%;
-    }
-    .board_search_wrap {
         width: 100%;
-    }
-    .board_search{
-        width: 30%;
-    }
-    #search-btn {
-        padding:1rem 0.6rem;
-      
-    }
-    .board_content_wrap{
-        width: 90%;
-    }
+        }
+        .board_search_wrap {
+            width: 100%;
+        }
+        .board_search{
+            width: 30%;
+        }
+        #search-btn {
+            padding:1rem 0.6rem;
+          
+        }
+        .board_content_wrap{
+            width: 90%;
+        }
   }
