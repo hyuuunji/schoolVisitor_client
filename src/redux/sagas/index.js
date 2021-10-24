@@ -1,7 +1,8 @@
-import { all, fork } from "redux-saga/effects";
+import { all } from "redux-saga/effects";
 import axios from "axios";
 import dotenv from "dotenv";
 
+// import { all, fork } from "redux-saga/effects";
 // import userSaga from "./userSaga";
 // import postSaga from "./postSaga";
 // import profileSaga from "./profileSage"

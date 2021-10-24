@@ -1,9 +1,8 @@
 import React from "react";
-import { IconButton} from '@material-ui/core'
-import logo_Image from "../../assets/images/footer_logo.png";
-import CallIcon from '@material-ui/icons/Call';
-import MailOutlineIcon from '@material-ui/icons/MailOutline';
-import LocationOnIcon from '@material-ui/icons/LocationOn';
+import { IconButton } from '@mui/material';
+import CallEndIcon from '@mui/icons-material/CallEnd';
+import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import AddLocationIcon from '@mui/icons-material/AddLocation';
 import { withRouter } from "react-router-dom";
 import "../common/footer.css";
 
@@ -13,14 +12,11 @@ function footer(props) {
     return (
 			<footer id="footer">
 				<div className="inner">
-              <div className="logo">
-                  <img onClick={() => props.history.push('/')}
-                      src={logo_Image} alt="픽플" />
-              </div>
+            
 					<ul className="actions">
-						<li><IconButton   ><CallIcon  style={{color:"#fff"}}/></IconButton>Call (054) 478-7114</li>
-						<li><IconButton><MailOutlineIcon  style={{color:"#fff"}} /></IconButton> FAX : (054) 478-7114 E-mail</li>
-						<li><IconButton><LocationOnIcon  style={{color:"#fff"}}/></IconButton>금오공과대학교,(39177) 경북 구미시 대학로 61</li>
+						<li><IconButton   ><CallEndIcon  style={{color:"#bebdbd"}}/></IconButton>Call (054) 478-7114</li>
+						<li><IconButton><MailOutlineIcon  style={{color:"#bebdbd"}} /></IconButton> FAX : (054) 478-7114 E-mail</li>
+						<li><IconButton><AddLocationIcon  style={{color:"#bebdbd"}}/></IconButton>금오공과대학교,(39177) 경북 구미시 대학로 61</li>
 					</ul>
 				</div>
 				<div className="copyright">

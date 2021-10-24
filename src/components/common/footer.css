@@ -1,8 +1,8 @@
 #footer {
-    padding: 4em 0 2em 0;
+    padding: 2em 0 2em 0;
     background: rgb(70, 69, 69);
     text-align: center;
-    color: #fff;
+    color: #bebdbd;
     font-weight: bold;
   }
     .logo>img{
@@ -11,7 +11,7 @@
     }
     #footer h2 {
       font-size: 25px;
-      color: #fff;
+      color: #bebdbd;
       margin-bottom: 18px;
       
     }
@@ -21,7 +21,7 @@
     }
   
     #footer a {
-      color: #fff;
+      color: #bebdbd;
       text-decoration: none;
     }
   
@@ -31,7 +31,7 @@
   
     #footer .copyright {
       display: inline-block;
-      color: #fff;
+      color: #bebdbd;
       font-size: 0.75em;
       margin: 0 0 2em 0;
       padding: 0;

@@ -1,8 +1,9 @@
 import React, { Fragment } from "react";
-import { Switch, Route,BrowserRouter} from "react-router-dom";
+import { Switch, Route} from "react-router-dom";
 import LoginPage from "../pages/loginPage"
 import boardPage from "../pages/boardPage"
 import Footer from "../components/common/footer"
+import Header from "../components/common/header"
 
 
 
@@ -10,6 +11,7 @@ import Footer from "../components/common/footer"
 const Router = () => {
   return (
     <Fragment>
+                <Header/>
                 <Switch>  
                              {/* StartPage = LoginPage */}
                             <Route path="/" exact component={LoginPage} />
